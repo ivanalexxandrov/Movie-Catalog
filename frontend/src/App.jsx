@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: '800px', margin: '40px auto', padding: '0 20px', fontFamily: 'Arial, sans-serif' }}>
-      <h1>🎬 Каталог Филми и Актьори (CRUD)</h1>
+      <h1>🎬 Каталог Филми и Актьори</h1>
       
       <MovieForm
         onSubmit={handleSaveMovie}

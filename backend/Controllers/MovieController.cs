@@ -29,6 +29,8 @@ public class MoviesController : ControllerBase
             .ToListAsync();
         return Ok(movies);
     }
+
+    [HttpGet("actors")]
     public async Task<ActionResult<IEnumerable<ActorDto>>> GetActors()
     {
         return await _context.Actors
